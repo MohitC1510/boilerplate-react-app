@@ -1,0 +1,50 @@
+.bg1{
+    background-image: url('/images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 267px;
+    margin: $m-size;
+    border-radius: 10px;
+}
+.bg2{
+    background-image: url('/images/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: $m-size;
+    border-radius: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 267px;
+    height: 200px;
+}
+.bg1-title{
+    color: white;
+    width: 300px;
+    font-size: 2.2rem;
+    line-height: 1;
+    padding: $m-size;
+    font-weight: 600;
+}
+.play-button{
+    color: $main-pink;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin: $m-size;
+    position: relative;
+    top: 104px;
+}
+.play-button2{
+    color: $main-pink;
+    background: white;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+    margin: $m-size;
+    position: relative;
+    bottom:36px
+}

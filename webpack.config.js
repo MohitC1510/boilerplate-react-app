@@ -23,31 +23,31 @@ module.exports = (env, argv) => {
     target: ['web', 'es5'],
     mode: 'development',
     module: {
-			rules: [{
-				test: /\.js$/,
-				exclude: /node_modules/,
-				use: {
-					loader: 'babel-loader',
-					options: {
-						// targets: 'defaults',
-						presets: [
-							// ['@babel/preset-env', { 'useBuiltIns': 'entry' }],
-							['@babel/preset-env', 
-								{ 
-									'useBuiltIns': 'entry',
-									'corejs': '^3.12.1',
-									/* 'targets': {
-												'esmodules': true,
-												'ie': '11'
-												} */
-								}
-							],
-							'@babel/preset-react'
-						]/* ,					
+      rules: [{
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            // targets: 'defaults',
+            presets: [
+              // ['@babel/preset-env', { 'useBuiltIns': 'entry' }],
+              ['@babel/preset-env',
+                {
+                  'useBuiltIns': 'entry',
+                  'corejs': '^3.12.1',
+                  /* 'targets': {
+                        'esmodules': true,
+                        'ie': '11'
+                        } */
+                }
+              ],
+              '@babel/preset-react'
+            ]/* ,					
 						plugins: ['@babel/plugin-proposal-class-properties']  */		// Plugin now included within '@babel/preset-env'
-					}
-				}
-			}, {
+          }
+        }
+      }, {
         test: /\.s?css$/,
         use: [MiniCssExtractPlugin.loader,
         {

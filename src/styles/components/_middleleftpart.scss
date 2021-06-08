@@ -1,0 +1,27 @@
+.middleleft{
+
+    font-size: $s-size;
+}
+.middleleft-active{
+    margin: $s-size 0;
+   color: white;
+}
+.middleleft-middle{
+   display: flex;
+   margin: 0 0 $s-size 0;
+}
+.middleleft-noactive{
+   margin:0 $m-size $s-size 0;
+   color: rgb(163, 163, 163);
+}
+.middleleft-noactiveh{
+   margin:0 100px 0 0;
+   color: rgb(163, 163, 163);
+}
+
+.button-left-middle{
+    border: none;
+    background: rgb(233, 81, 106);
+    color: whitesmoke;
+    border-radius: 5px;
+}

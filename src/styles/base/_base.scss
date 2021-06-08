@@ -5,7 +5,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    color: $dark-grey;
+    background: $left-background ;
     font-size: $m-size;
     font-family: 'Abel', sans-serif;
     line-height: 1.6;
@@ -16,7 +16,7 @@ button{
 button:disabled{
     cursor: default;
 }
-.isActive{
+.active{
     font-weight: bolder;
-    color: #764abc;
+    color: red;
 }

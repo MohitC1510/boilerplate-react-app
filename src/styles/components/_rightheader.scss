@@ -1,0 +1,43 @@
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: $m-size $m-size;
+
+}
+.right-header h2{
+    color: whitesmoke;
+}
+.top-right-button{
+    color: $main-pink;
+    background: $right-background;
+    border: 2px solid $main-pink;
+    border-radius: 150px;
+    height: 50px;
+    width: 50px;
+}
+.header-bottom{
+    display: flex;
+    align-items: center;
+}
+.active-link{
+    color: white;
+    text-decoration: none;
+    border-bottom:4px solid $main-pink;
+    margin: 0 $m-size;
+    padding: 0 0 0.3rem 0;
+}
+.not-active-link{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    margin: 0 $m-size;
+    padding: 0 0 0.3rem 0;
+}
+.button-left-middle--link{
+    border: none;
+    background: rgb(233, 81, 106);
+    color: whitesmoke;
+    border-radius: 2px;
+    padding: 0.3rem;
+    margin: 0 $m-size;
+}
